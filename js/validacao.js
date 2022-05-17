@@ -97,7 +97,7 @@ function cadastrar(){
         msgSucess.setAttribute('style', 'display: block')
         msgError.setAttribute('style', 'display: none')
 
-        window.location.href = './login.html'
+        window.location.href = '../sistemadelogin/index.html'
     } 
     else {
         msgError.innerHTML = '<strong>OPS! Ficou faltando alguma coisa, preencha todos os campos</strong>'
