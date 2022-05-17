@@ -127,9 +127,17 @@ a {
     font-size: 10pt;
     margin-bottom: 30px;
     display: none;
+    padding: 15px;
+    border-radius: 3px;
 }
-#msgError {color: #ff0000}
-#msgSucess {color: #00bb00}
+#msgError {
+    color: #ff0000;
+    background: #ff8c8cb3;
+}
+#msgSucess {
+    color: #00bb00;
+    background: #6eff6e;
+}
 
 @media (max-width: 600px) {
     section {height: 90vh;}
